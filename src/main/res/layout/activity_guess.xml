@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mandrik.nick.guessthenumber.GuessActivity"
+    android:background="#d0cfcf">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/try_to_guess"
+                android:id="@+id/infoView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:textColor="#245dda"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/print_count"
+                android:id="@+id/infoAttemps"
+                android:textColor="#245dda"
+                android:textSize="18dp"
+                android:layout_gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:minWidth="50dp">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/editText"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textCursorDrawable="@null"
+                android:backgroundTint="@color/colorPrimary"
+                android:singleLine="true"
+                android:textColorHighlight="#245dda"
+                android:textColorHint="#245dda" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="10dp"></TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/input_value"
+                android:onClick="onClick"
+                android:nestedScrollingEnabled="false"
+                android:textColor="#245dda"
+                android:background="#c0bdbd" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/backButton"
+        android:layout_marginBottom="60dp"
+        android:background="#c0bdbd"
+        android:onClick="back"
+        android:textColor="#245dda"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

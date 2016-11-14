@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="behind">Conceived number greater</string>
+    <string name="ahead">Conceived number less</string>
+    <string name="hit">Guessed!</string>
+    <string name="input_value">Enter the value</string>
+    <string name="play_more">Play more</string>
+    <string name="try_to_guess">Try to guess number</string>
+    <string name="error">Input error!</string>
+    <string name="error_input">Conceived number in [0,100]</string>
+    <string name="print_count">Number of attempts:</string>
+    <string name="start">Start</string>
+    <string name="right_guess">Amount of guess numbers:</string>
+    <string name="reset_statistic">Reset stat</string>
+    <string name="back">Back</string>
+</resources>

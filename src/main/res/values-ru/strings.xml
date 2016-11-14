@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Угадай число</string>
+    <string name="behind">Загаданное число больше</string>
+    <string name="ahead">Загаданное число меньше</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести число</string>
+    <string name="play_more">Играть ещё</string>
+    <string name="try_to_guess">Попробуйте угадать число</string>
+    <string name="error">Ошибка ввода!</string>
+	<string name="error_input">Загаданное число: [0,100]</string>
+    <string name="print_count">Количество попыток:</string>
+    <string name="start">Играть</string>
+    <string name="right_guess">Количество угаданных чисел:</string>
+    <string name="reset_statistic">Обнулить статистику</string>
+    <string name="back">Назад</string>
+</resources>
